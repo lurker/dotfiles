@@ -1,0 +1,25 @@
+#= .inputrc
+#= $Id$
+
+# emacsキーバインド
+set editing-mode emacs
+
+# チルダをTabにより展開
+set expand-tilde on
+
+# 日本語関係
+set input-meta on
+set convert-meta off
+set output-meta on
+set kanji-code utf-8
+
+# 大文字小文字無視
+set completion-ignore-case on
+
+# 横方向の画面自動スクロール
+set horizontal-scroll-mode off
+
+# 補完
+"\C-p": history-search-backward
+"\C-n": history-search-forward
+

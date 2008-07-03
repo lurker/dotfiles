@@ -1,0 +1,38 @@
+#= .screenrc
+#= $Id$
+startup_message	off
+hardstatus		off
+autodetach		on
+nethack		  	off
+ignorecase		on
+vbell		    	on
+crlf			    off
+escape        ^t^t
+defmonitor		on
+#defutf8       on
+#utf8          on
+
+defscrollback 1000
+altscreen     on
+
+# statuslines
+hardstatus alwayslastline "%H %`%-w%{=b bw}%n %t%{-}%+w"
+
+# bind keys
+#bindkey  next
+#bindkey  prev
+
+# change encoding
+bind  encoding utf8
+bind  encoding euc
+bind  encoding sjis
+
+bind 2 split
+bind o focus
+bind 1 only
+bind 0 remove
+
+
+bind ^y paste .
+bind ^@ copy 
+markkeys h=^b:l=^f:$=^e:^m=^@:^m=^w
