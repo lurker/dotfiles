@@ -7,9 +7,9 @@
 (setq slime-net-coding-system 'utf-8-unix)
 
 ;; user information
-; changelog
-(setq user-full-name "KIMOTO Takumi")
-(setq user-mail-address "peerler@gmail.com")
+;; changelog
+;;(setq user-full-name "KIMOTO Takumi")
+;;(setq user-mail-address "peerler@gmail.com")
 
 ;; utility
 ; ディレクトリ内で正規表現にマッチするファイルをloadします
